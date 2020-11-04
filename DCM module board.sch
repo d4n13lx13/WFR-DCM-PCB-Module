@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -152,12 +152,49 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-27.94" y="0" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="48.26" y="0" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="18.36" y="16.02" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="18.36" y="-22.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="+IN"/>
+<wire x1="-4.83" y1="24.02" x2="-15" y2="24.02" width="0.1524" layer="91"/>
+<wire x1="-15" y1="24.02" x2="-15" y2="24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="-44" y1="25" x2="-64" y2="25" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="-IN"/>
+<wire x1="-4.83" y1="8.02" x2="-15" y2="8.02" width="0.1524" layer="91"/>
+<wire x1="-15" y1="8.02" x2="-15" y2="12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="-15" y1="8" x2="-48" y2="8" width="0.1524" layer="91"/>
+<wire x1="-48" y1="8" x2="-48" y2="-3" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="+IN"/>
+<wire x1="-48" y1="-3" x2="-48" y2="-14.08" width="0.1524" layer="91"/>
+<wire x1="-48" y1="-14.08" x2="-4.83" y2="-14.08" width="0.1524" layer="91"/>
+<wire x1="-48" y1="-3" x2="-63" y2="-3" width="0.1524" layer="91"/>
+<junction x="-48" y="-3"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="-IN"/>
+<wire x1="-4.83" y1="-30.08" x2="-62" y2="-30.08" width="0.1524" layer="91"/>
+<wire x1="-62" y1="-30.08" x2="-62" y2="-30" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
