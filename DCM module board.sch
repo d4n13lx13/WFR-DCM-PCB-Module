@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -604,12 +604,12 @@ Source: http://www.molex.com</description>
 <plain>
 </plain>
 <instances>
-<instance part="C1" gate="A" x="-17.78" y="10.16" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.2428" y="5.0038" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="-19.8628" y="6.0706" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<instance part="C1" gate="A" x="-20.32" y="10.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-14.7828" y="5.0038" size="3.4798" layer="96" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="-22.4028" y="11.1506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="C2" gate="A" x="-17.78" y="-25.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.2428" y="-30.5562" size="3.4798" layer="96" ratio="10" rot="SR90"/>
+<instance part="C2" gate="A" x="-20.32" y="-25.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-14.7828" y="-30.5562" size="3.4798" layer="96" ratio="10" rot="SR90"/>
 </instance>
 <instance part="L1" gate="G$1" x="-33.02" y="22.86" smashed="yes">
 <attribute name="NAME" x="-38.119959375" y="24.772490625" size="1.784990625" layer="95"/>
@@ -678,13 +678,13 @@ Source: http://www.molex.com</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="+IN"/>
 <pinref part="C1" gate="A" pin="2"/>
 <wire x1="-22.86" y1="22.86" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="22.86" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-17.78" y="22.86"/>
+<wire x1="-20.32" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="22.86" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-20.32" y="22.86"/>
 <pinref part="R1" gate="A" pin="2"/>
 <wire x1="-27.94" y1="30.48" x2="-22.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="30.48" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
@@ -694,24 +694,24 @@ Source: http://www.molex.com</description>
 <net name="500V" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="22.86" x2="-45.72" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="22.86" x2="-45.72" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R1" gate="A" pin="1"/>
-<wire x1="-45.72" y1="30.48" x2="-40.64" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-45.72" y="22.86"/>
 <pinref part="X1" gate="-10" pin="S"/>
-<wire x1="-71.12" y1="22.86" x2="-45.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="22.86" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="-71.12" y="22.86" size="1.778" layer="95"/>
+<pinref part="R1" gate="A" pin="1"/>
+<wire x1="-43.18" y1="22.86" x2="-40.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="30.48" x2="-43.18" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="30.48" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-43.18" y="22.86"/>
 </segment>
 </net>
 <net name="250V" class="0">
 <segment>
 <pinref part="C1" gate="A" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="-IN"/>
-<wire x1="-17.78" y1="10.16" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="7.62" x2="-50.8" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-17.78" y="7.62"/>
+<wire x1="-20.32" y1="10.16" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="7.62" x2="-50.8" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-20.32" y="7.62"/>
 <wire x1="-50.8" y1="7.62" x2="-50.8" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="-50.8" y1="-2.54" x2="-50.8" y2="-12.7" width="0.1524" layer="91"/>
@@ -733,12 +733,12 @@ Source: http://www.molex.com</description>
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C2" gate="A" pin="2"/>
-<wire x1="-17.78" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-12.7" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-12.7" x2="-25.4" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-12.7" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="+IN"/>
-<wire x1="-17.78" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-12.7"/>
+<wire x1="-20.32" y1="-12.7" x2="-10.16" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-12.7"/>
 <pinref part="R2" gate="A" pin="2"/>
 <wire x1="-27.94" y1="-5.08" x2="-22.86" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-5.08" x2="-22.86" y2="-12.7" width="0.1524" layer="91"/>
@@ -748,14 +748,14 @@ Source: http://www.molex.com</description>
 <net name="0V" class="0">
 <segment>
 <pinref part="C2" gate="A" pin="1"/>
-<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="-IN"/>
-<wire x1="-17.78" y1="-27.94" x2="-10.16" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-27.94" x2="-63.5" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-27.94"/>
+<wire x1="-20.32" y1="-27.94" x2="-10.16" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-27.94" x2="-63.5" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-27.94"/>
 <pinref part="X1" gate="-8" pin="S"/>
-<wire x1="-71.12" y1="17.78" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="17.78" x2="-63.5" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="17.78" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
 <label x="-68.58" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
