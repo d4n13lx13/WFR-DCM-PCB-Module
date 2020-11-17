@@ -144,87 +144,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SRP1265A-330M" urn="urn:adsk.eagle:library:24669562">
-<packages>
-<package name="IND_SRP1265A-330M" urn="urn:adsk.eagle:footprint:24669563/1" library_version="1">
-<text x="-5.847809375" y="7.286309375" size="1.200009375" layer="25">&gt;NAME</text>
-<text x="-5.8454" y="-7.755509375" size="1.20008125" layer="27">&gt;VALUE</text>
-<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
-<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="-3" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-3" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="6.25" x2="6.25" y2="3" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="3" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.05" layer="39"/>
-<wire x1="6.5" y1="6.5" x2="6.5" y2="2.75" width="0.05" layer="39"/>
-<wire x1="6.5" y1="2.75" x2="7.35" y2="2.75" width="0.05" layer="39"/>
-<wire x1="7.35" y1="2.75" x2="7.35" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="7.35" y1="-2.75" x2="6.5" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="6.5" y1="-2.75" x2="6.5" y2="-6.5" width="0.05" layer="39"/>
-<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.05" layer="39"/>
-<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="-6.5" y1="-2.75" x2="-7.35" y2="-2.75" width="0.05" layer="39"/>
-<wire x1="-7.35" y1="-2.75" x2="-7.35" y2="2.75" width="0.05" layer="39"/>
-<wire x1="-7.35" y1="2.75" x2="-6.5" y2="2.75" width="0.05" layer="39"/>
-<wire x1="-6.5" y1="2.75" x2="-6.5" y2="6.5" width="0.05" layer="39"/>
-<circle x="-7.62" y="0" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-5.55" y="0" dx="3.1" dy="5" layer="1"/>
-<smd name="2" x="5.55" y="0" dx="3.1" dy="5" layer="1"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="IND_SRP1265A-330M" urn="urn:adsk.eagle:package:24669565/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="IND_SRP1265A-330M"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SRP1265A-330M" urn="urn:adsk.eagle:symbol:24669564/1" library_version="1">
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
-<text x="-5.099959375" y="1.912490625" size="1.784990625" layer="95">&gt;NAME</text>
-<text x="-5.095790625" y="-2.5479" size="1.783540625" layer="96">&gt;VALUE</text>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SRP1265A-330M" urn="urn:adsk.eagle:component:24669566/1" prefix="L" library_version="1">
-<description>Inductor Power Shielded Wirewound 33uH 20% 100KHz Carbonyl Powder 8A 58mOhm DCR Automotive T/R </description>
-<gates>
-<gate name="G$1" symbol="SRP1265A-330M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IND_SRP1265A-330M">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24669565/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" 33µH Shielded Wirewound Inductor 8A 58mOhm Max Nonstandard "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="SRP1265A-330MCT-ND"/>
-<attribute name="MF" value="Bourns"/>
-<attribute name="MP" value="SRP1265A-330M"/>
-<attribute name="PACKAGE" value="1008 Bourns"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRP1265A-330M/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -252,74 +171,6 @@
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Nichicon" urn="urn:adsk.eagle:library:24671342">
-<packages>
-<package name="CAP_UBX_16X25_NCH" urn="urn:adsk.eagle:footprint:24671343/1" library_version="1">
-<pad name="1" x="0" y="0" drill="1.0668" diameter="1.5748"/>
-<pad name="2" x="7.493" y="0" drill="1.0668" diameter="1.5748" rot="R180"/>
-<wire x1="-5.7658" y1="0" x2="-4.4958" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.1308" y1="0.635" x2="-5.1308" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="11.8872" y1="0" x2="-4.3688" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.3688" y1="0" x2="11.8872" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.7658" y1="0" x2="-4.4958" y2="0" width="0.1524" layer="51"/>
-<wire x1="-5.1308" y1="0.635" x2="-5.1308" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="11.7602" y1="0" x2="-4.2418" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-4.2418" y1="0" x2="11.7602" y2="0" width="0" layer="51" curve="-180"/>
-<text x="2.032" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="0.4826" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="CAP_UBX_16X25_NCH" urn="urn:adsk.eagle:package:24671346/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="CAP_UBX_16X25_NCH"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CAPH" urn="urn:adsk.eagle:symbol:24671345/1" library_version="1">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.9652" y1="0.9652" x2="1.5748" y2="0.9652" width="0.1524" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UBY1E472MHL1TN" urn="urn:adsk.eagle:component:24671347/1" prefix="C" library_version="1">
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_UBX_16X25_NCH">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24671346/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UBY1E472MHL1TN" constant="no"/>
-<attribute name="SOURCELIBRARY" value="Nichicon_2019-09-13" constant="no"/>
-<attribute name="VENDOR" value="Nichicon" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -5118,7 +4969,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </library>
 <library name="TEH100M2R50FE" urn="urn:adsk.eagle:library:24671303">
 <packages>
-<package name="RES_TEH100_OHM" urn="urn:adsk.eagle:footprint:24671304/1" library_version="3">
+<package name="RES_TEH100_OHM" urn="urn:adsk.eagle:footprint:24671304/1" library_version="4">
 <pad name="1" x="0" y="0" drill="1.6764" diameter="2.1844"/>
 <pad name="3" x="10.16" y="0" drill="1.6764" diameter="2.1844"/>
 <wire x1="-2.921" y1="2.7432" x2="13.081" y2="2.7432" width="0.1524" layer="21"/>
@@ -5140,14 +4991,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="RES_TEH100_OHM" urn="urn:adsk.eagle:package:24671307/1" type="box" library_version="3">
+<package3d name="RES_TEH100_OHM" urn="urn:adsk.eagle:package:24671307/1" type="box" library_version="4">
 <packageinstances>
 <packageinstance name="RES_TEH100_OHM"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="RES" urn="urn:adsk.eagle:symbol:24671306/3" library_version="3">
+<symbol name="RES" urn="urn:adsk.eagle:symbol:24671306/3" library_version="4">
 <pin name="1" x="0" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
@@ -5162,7 +5013,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEH100M2R50FE" urn="urn:adsk.eagle:component:24671308/3" prefix="R" library_version="3">
+<deviceset name="TEH100M2R50FE" urn="urn:adsk.eagle:component:24671308/4" prefix="R" uservalue="yes" library_version="4">
 <gates>
 <gate name="A" symbol="RES" x="0" y="0" swaplevel="1"/>
 </gates>
@@ -5194,6 +5045,155 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SRP1265A-330M" urn="urn:adsk.eagle:library:24669562">
+<packages>
+<package name="IND_SRP1265A-330M" urn="urn:adsk.eagle:footprint:24669563/1" library_version="2">
+<text x="-5.847809375" y="7.286309375" size="1.200009375" layer="25">&gt;NAME</text>
+<text x="-5.8454" y="-7.755509375" size="1.20008125" layer="27">&gt;VALUE</text>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="-3" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-3" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="3" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.05" layer="39"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="2.75" width="0.05" layer="39"/>
+<wire x1="6.5" y1="2.75" x2="7.35" y2="2.75" width="0.05" layer="39"/>
+<wire x1="7.35" y1="2.75" x2="7.35" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="7.35" y1="-2.75" x2="6.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="6.5" y1="-2.75" x2="6.5" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-6.5" y1="-2.75" x2="-7.35" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-7.35" y1="-2.75" x2="-7.35" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-7.35" y1="2.75" x2="-6.5" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-6.5" y1="2.75" x2="-6.5" y2="6.5" width="0.05" layer="39"/>
+<circle x="-7.62" y="0" radius="0.1" width="0.2" layer="21"/>
+<smd name="1" x="-5.55" y="0" dx="3.1" dy="5" layer="1"/>
+<smd name="2" x="5.55" y="0" dx="3.1" dy="5" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="IND_SRP1265A-330M" urn="urn:adsk.eagle:package:24669565/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="IND_SRP1265A-330M"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SRP1265A-330M" urn="urn:adsk.eagle:symbol:24669564/1" library_version="2">
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-191.421"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-191.421"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-191.421"/>
+<text x="-5.099959375" y="1.912490625" size="1.784990625" layer="95">&gt;NAME</text>
+<text x="-5.095790625" y="-2.5479" size="1.783540625" layer="96">&gt;VALUE</text>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SRP1265A-330M" urn="urn:adsk.eagle:component:24669566/2" prefix="L" uservalue="yes" library_version="2">
+<description>Inductor Power Shielded Wirewound 33uH 20% 100KHz Carbonyl Powder 8A 58mOhm DCR Automotive T/R </description>
+<gates>
+<gate name="G$1" symbol="SRP1265A-330M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IND_SRP1265A-330M">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24669565/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 33µH Shielded Wirewound Inductor 8A 58mOhm Max Nonstandard "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SRP1265A-330MCT-ND"/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MP" value="SRP1265A-330M"/>
+<attribute name="PACKAGE" value="1008 Bourns"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SRP1265A-330M/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Nichicon" urn="urn:adsk.eagle:library:24671342">
+<packages>
+<package name="CAP_UBX_16X25_NCH" urn="urn:adsk.eagle:footprint:24671343/1" library_version="2">
+<pad name="1" x="0" y="0" drill="1.0668" diameter="1.5748"/>
+<pad name="2" x="7.493" y="0" drill="1.0668" diameter="1.5748" rot="R180"/>
+<wire x1="-5.7658" y1="0" x2="-4.4958" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.1308" y1="0.635" x2="-5.1308" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="11.8872" y1="0" x2="-4.3688" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.3688" y1="0" x2="11.8872" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-5.7658" y1="0" x2="-4.4958" y2="0" width="0.1524" layer="51"/>
+<wire x1="-5.1308" y1="0.635" x2="-5.1308" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="11.7602" y1="0" x2="-4.2418" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-4.2418" y1="0" x2="11.7602" y2="0" width="0" layer="51" curve="-180"/>
+<text x="2.032" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="0.4826" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="CAP_UBX_16X25_NCH" urn="urn:adsk.eagle:package:24671346/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="CAP_UBX_16X25_NCH"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CAPH" urn="urn:adsk.eagle:symbol:24671345/1" library_version="2">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0.9652" y1="0.9652" x2="1.5748" y2="0.9652" width="0.1524" layer="94"/>
+<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UBY1E472MHL1TN" urn="urn:adsk.eagle:component:24671347/2" prefix="C" uservalue="yes" library_version="2">
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAP_UBX_16X25_NCH">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24671346/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UBY1E472MHL1TN" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Nichicon_2019-09-13" constant="no"/>
+<attribute name="VENDOR" value="Nichicon" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5204,32 +5204,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="C1" library="capacitor-emi" library_urn="urn:adsk.eagle:library:24583833" deviceset="B58035U5305M062" device="" package3d_urn="urn:adsk.eagle:package:24583837/1"/>
-<part name="L1" library="SRP1265A-330M" library_urn="urn:adsk.eagle:library:24669562" deviceset="SRP1265A-330M" device="" package3d_urn="urn:adsk.eagle:package:24669565/1"/>
-<part name="L2" library="SRP1265A-330M" library_urn="urn:adsk.eagle:library:24669562" deviceset="SRP1265A-330M" device="" package3d_urn="urn:adsk.eagle:package:24669565/1"/>
+<part name="C1" library="capacitor-emi" library_urn="urn:adsk.eagle:library:24583833" deviceset="B58035U5305M062" device="" package3d_urn="urn:adsk.eagle:package:24583837/1" value="3u"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="Nichicon" library_urn="urn:adsk.eagle:library:24671342" deviceset="UBY1E472MHL1TN" device="" package3d_urn="urn:adsk.eagle:package:24671346/1"/>
-<part name="C4" library="Nichicon" library_urn="urn:adsk.eagle:library:24671342" deviceset="UBY1E472MHL1TN" device="" package3d_urn="urn:adsk.eagle:package:24671346/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="dc-dc-converter" library_urn="urn:adsk.eagle:library:24542449" deviceset="DCM4623TD2N13C8T00" device="" package3d_urn="urn:adsk.eagle:package:24542464/2"/>
 <part name="U$2" library="dc-dc-converter" library_urn="urn:adsk.eagle:library:24542449" deviceset="DCM4623TD2N13C8T00" device="" package3d_urn="urn:adsk.eagle:package:24542464/2"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="5566-10" device="" package3d_urn="urn:adsk.eagle:package:8078579/1"/>
-<part name="C2" library="capacitor-emi" library_urn="urn:adsk.eagle:library:24583833" deviceset="B58035U5305M062" device="" package3d_urn="urn:adsk.eagle:package:24583837/1"/>
+<part name="C2" library="capacitor-emi" library_urn="urn:adsk.eagle:library:24583833" deviceset="B58035U5305M062" device="" package3d_urn="urn:adsk.eagle:package:24583837/1" value="3u"/>
 <part name="R3" library="SLR-56VR3F" library_urn="urn:adsk.eagle:library:24782691" deviceset="SLR-56VR3F" device="" package3d_urn="urn:adsk.eagle:package:24782695/1"/>
 <part name="R4" library="SLR-56VR3F" library_urn="urn:adsk.eagle:library:24782691" deviceset="SLR-56VR3F" device="" package3d_urn="urn:adsk.eagle:package:24782695/1"/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="TEH100M2R50FE" library_urn="urn:adsk.eagle:library:24671303" deviceset="TEH100M2R50FE" device="" package3d_urn="urn:adsk.eagle:package:24671307/1"/>
-<part name="R2" library="TEH100M2R50FE" library_urn="urn:adsk.eagle:library:24671303" deviceset="TEH100M2R50FE" device="" package3d_urn="urn:adsk.eagle:package:24671307/1"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="250"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="250"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="45k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="45k"/>
+<part name="R1" library="TEH100M2R50FE" library_urn="urn:adsk.eagle:library:24671303" deviceset="TEH100M2R50FE" device="" package3d_urn="urn:adsk.eagle:package:24671307/1" value="2.5"/>
+<part name="R2" library="TEH100M2R50FE" library_urn="urn:adsk.eagle:library:24671303" deviceset="TEH100M2R50FE" device="" package3d_urn="urn:adsk.eagle:package:24671307/1" value="2.5"/>
+<part name="L1" library="SRP1265A-330M" library_urn="urn:adsk.eagle:library:24669562" deviceset="SRP1265A-330M" device="" package3d_urn="urn:adsk.eagle:package:24669565/1" value="33u"/>
+<part name="L2" library="SRP1265A-330M" library_urn="urn:adsk.eagle:library:24669562" deviceset="SRP1265A-330M" device="" package3d_urn="urn:adsk.eagle:package:24669565/1" value="33u"/>
+<part name="C3" library="Nichicon" library_urn="urn:adsk.eagle:library:24671342" deviceset="UBY1E472MHL1TN" device="" package3d_urn="urn:adsk.eagle:package:24671346/1" value="4700u"/>
+<part name="C4" library="Nichicon" library_urn="urn:adsk.eagle:library:24671342" deviceset="UBY1E472MHL1TN" device="" package3d_urn="urn:adsk.eagle:package:24671346/1" value="4700u"/>
 </parts>
 <sheets>
 <sheet>
@@ -5237,23 +5233,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </plain>
 <instances>
 <instance part="C1" gate="A" x="-25.4" y="10.16" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-19.8628" y="5.0038" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="-27.4828" y="11.1506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
-</instance>
-<instance part="L1" gate="G$1" x="-38.1" y="22.86" smashed="yes">
-<attribute name="NAME" x="-43.199959375" y="24.772490625" size="1.784990625" layer="95"/>
-</instance>
-<instance part="L2" gate="G$1" x="-38.1" y="-12.7" smashed="yes">
-<attribute name="NAME" x="-43.199959375" y="-10.787509375" size="1.784990625" layer="95"/>
+<attribute name="VALUE" x="-20.2438" y="13.1572" size="1.778" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-28.9306" y="13.1572" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
 <instance part="GND1" gate="1" x="48.26" y="-43.18" smashed="yes">
 <attribute name="VALUE" x="45.72" y="-45.72" size="1.778" layer="96"/>
-</instance>
-<instance part="C3" gate="A" x="43.18" y="-27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.2628" y="-28.9306" size="3.4798" layer="95" ratio="10" rot="SR270"/>
-</instance>
-<instance part="C4" gate="A" x="53.34" y="-27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.4228" y="-28.9306" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 </instance>
 <instance part="GND2" gate="1" x="33.02" y="2.54" smashed="yes">
 <attribute name="VALUE" x="30.48" y="0" size="1.778" layer="96"/>
@@ -5295,20 +5279,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="-76.2" y="23.622" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="C2" gate="A" x="-25.4" y="-25.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-19.8628" y="-30.5562" size="3.4798" layer="96" ratio="10" rot="SR90"/>
-<attribute name="NAME" x="-27.4828" y="-24.4094" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+<attribute name="VALUE" x="-20.2438" y="-22.4028" size="1.778" layer="96" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="-28.9306" y="-22.4028" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
 <instance part="R3" gate="A" x="-10.16" y="55.88" smashed="yes">
-<attribute name="NAME" x="-12.9794" y="49.6824" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="-10.4394" y="52.2224" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="R4" gate="A" x="53.34" y="55.88" smashed="yes">
-<attribute name="NAME" x="50.5206" y="49.6824" size="3.4798" layer="95" ratio="10" rot="SR0"/>
-</instance>
-<instance part="GND4" gate="1" x="7.62" y="53.34" smashed="yes">
-<attribute name="VALUE" x="5.08" y="50.8" size="1.778" layer="96"/>
-</instance>
-<instance part="GND5" gate="1" x="71.12" y="53.34" smashed="yes">
-<attribute name="VALUE" x="68.58" y="50.8" size="1.778" layer="96"/>
+<attribute name="NAME" x="53.0606" y="52.2224" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 <instance part="R5" gate="G$1" x="-5.08" y="63.5" smashed="yes">
 <attribute name="NAME" x="-8.89" y="64.9986" size="1.778" layer="95"/>
@@ -5334,19 +5312,29 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="57.15" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.15" y="37.338" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="5.08" y="35.56" smashed="yes">
-<attribute name="VALUE" x="2.54" y="33.02" size="1.778" layer="96"/>
-</instance>
-<instance part="GND7" gate="1" x="71.12" y="35.56" smashed="yes">
-<attribute name="VALUE" x="68.58" y="33.02" size="1.778" layer="96"/>
-</instance>
 <instance part="R1" gate="A" x="-45.72" y="30.48" smashed="yes">
-<attribute name="NAME" x="-45.3644" y="32.5628" size="1.778" layer="95" font="vector" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="-43.18" y="12.7" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-45.3644" y="32.5628" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-45.72" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="A" x="-45.72" y="-5.08" smashed="yes">
-<attribute name="NAME" x="-45.3644" y="-2.9972" size="1.778" layer="95" font="vector" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="-45.72" y="-7.62" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-45.3644" y="-2.9972" size="1.778" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="-45.72" y="-7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="L1" gate="G$1" x="-38.1" y="22.86" smashed="yes">
+<attribute name="NAME" x="-43.199959375" y="24.772490625" size="1.784990625" layer="95"/>
+<attribute name="VALUE" x="-43.195790625" y="20.3121" size="1.783540625" layer="96"/>
+</instance>
+<instance part="L2" gate="G$1" x="-38.1" y="-12.7" smashed="yes">
+<attribute name="NAME" x="-43.199959375" y="-10.787509375" size="1.784990625" layer="95"/>
+<attribute name="VALUE" x="-43.195790625" y="-15.2479" size="1.783540625" layer="96"/>
+</instance>
+<instance part="C3" gate="A" x="43.18" y="-27.94" smashed="yes" rot="R270">
+<attribute name="VALUE" x="38.0238" y="-33.4772" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="39.0906" y="-30.9372" size="1.778" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="C4" gate="A" x="53.34" y="-27.94" smashed="yes" rot="R270">
+<attribute name="VALUE" x="48.1838" y="-33.4772" size="1.778" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="49.2506" y="-30.9372" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -5354,7 +5342,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="22.86" x2="-27.94" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="+IN"/>
 <pinref part="C1" gate="A" pin="2"/>
@@ -5366,11 +5353,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-27.94" y1="30.48" x2="-27.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-27.94" y="22.86"/>
 <pinref part="R1" gate="A" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="500V" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="X1" gate="-10" pin="S"/>
 <wire x1="-71.12" y1="22.86" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
 <label x="-71.12" y="22.86" size="1.778" layer="95"/>
@@ -5379,6 +5366,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-48.26" y1="30.48" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-48.26" y="22.86"/>
 <pinref part="R1" gate="A" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="250V" class="0">
@@ -5390,7 +5378,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-25.4" y1="7.62" x2="-55.88" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-25.4" y="7.62"/>
 <wire x1="-55.88" y1="7.62" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-2.54" x2="-55.88" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-12.7" x2="-45.72" y2="-12.7" width="0.1524" layer="91"/>
@@ -5404,11 +5391,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-60.96" y1="-2.54" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-71.12" y="20.32" size="1.778" layer="95"/>
 <pinref part="R2" gate="A" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R3" gate="A" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="55.88" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<junction x="5.08" y="55.88"/>
+<wire x1="10.16" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<label x="7.62" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="0" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<label x="2.54" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="-12.7" x2="-27.94" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="-12.7" x2="-30.48" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="-12.7" x2="-25.4" y2="-17.78" width="0.1524" layer="91"/>
@@ -5420,6 +5422,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="-27.94" y="-12.7"/>
 <pinref part="C2" gate="A" pin="2"/>
 <pinref part="R2" gate="A" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="0V" class="0">
@@ -5434,6 +5437,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-71.12" y1="17.78" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
 <label x="-68.58" y="17.78" size="1.778" layer="95"/>
 <pinref part="C2" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="R4" gate="A" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+<junction x="68.58" y="55.88"/>
+<wire x1="73.66" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+<label x="71.12" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<label x="68.58" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5458,55 +5476,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="33.02" y="7.62"/>
 </segment>
 <segment>
-<pinref part="C3" gate="A" pin="2"/>
 <wire x1="43.18" y1="-35.56" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-38.1" x2="48.26" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="C4" gate="A" pin="2"/>
 <wire x1="48.26" y1="-38.1" x2="53.34" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-38.1" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="48.26" y1="-40.64" x2="48.26" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="-38.1"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="R3" gate="A" pin="1"/>
-<wire x1="7.62" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="55.88" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
-<junction x="5.08" y="55.88"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="R4" gate="A" pin="1"/>
-<wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="63.5" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<junction x="68.58" y="55.88"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="0" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="40.64" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="66.04" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="71.12" y1="40.64" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="C3" gate="A" pin="2"/>
+<pinref part="C4" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="C3" gate="A" pin="1"/>
 <wire x1="43.18" y1="-27.94" x2="43.18" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-25.4" x2="48.26" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="C4" gate="A" pin="1"/>
 <wire x1="48.26" y1="-25.4" x2="53.34" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-25.4" x2="53.34" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="+OUT2"/>
@@ -5525,6 +5509,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="48.26" y1="-25.4" x2="48.26" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="48.26" y="-25.4"/>
 <junction x="48.26" y="-22.86"/>
+<pinref part="C3" gate="A" pin="1"/>
+<pinref part="C4" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
